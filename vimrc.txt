@@ -1,0 +1,21 @@
+map <F9> :wall! <CR> :!g++ -Wall -std=c++11 -o sol.exe % -D_GLIBCXX_DEBUG -DDEBUG <CR>
+map <F7> :wall! <CR> :!g++ -Wall -std=c++11 -o sol.exe % -O3 -DDEBUG <CR>
+
+map <F8> :wall! <CR> :!sol.exe <CR>
+inoremap { {<CR>}<ESC>O
+map <c-a> ggVG
+imap jj <Esc>
+
+set nu
+set rnu
+syntax on
+
+map <c-t> :tabnew <CR>
+map <c-l> :tabn <CR>
+map <c-h> :tabp <CR>
+
+set cindent
+set tabstop=4
+set shiftwidth=4
+set scrolloff=99
+set backspace=2
