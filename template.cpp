@@ -25,11 +25,14 @@ using namespace std;
 #define db2(x, y) cerr << "(" << #x << ", " << #y << ") = (" << x << ", " << y << ")\n"; 
 #define db3(x, y, z) cerr << "(" << #x << ", " << #y << ", " << #z << ") = (" << x << ", " << y << ", " << z << ")\n"
 #define all(a) (a).begin(), (a).end()
+#define sz(a) (int)(a).size()
 
 #define equal equalll
 #define less lesss
+typedef long long ll;
 const int N = -1;
 const long long INF = 1e9 + 19;
+
 
 
 void read() {
