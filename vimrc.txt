@@ -1,5 +1,5 @@
-map <F9> :wall! <CR> :!g++ -Wall -Wextra -std=c++14 -o sol.exe % -D_GLIBCXX_DEBUG -DMY_DEBUG <CR>
-map <F7> :wall! <CR> :!g++ -Wall -Wextra -std=c++14 -o sol.exe % -O2 -DMY_DEBUG <CR>
+map <F9> :wall! <CR> :!g++ -Wall -Wextra -std=c++14 -o sol.exe % -D_GLIBCXX_DEBUG -DHOME <CR>
+map <F7> :wall! <CR> :!g++ -Wall -Wextra -std=c++14 -o sol.exe % -O2 -DHOME <CR>
 map <F8> :wall! <CR> :!sol.exe <CR>
 
 inoremap { {<CR>}<ESC>O
