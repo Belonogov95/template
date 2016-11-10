@@ -49,7 +49,7 @@ void stress() {
 
 
 int main(){
-#ifdef MY_DEBUG
+#ifdef HOME
     freopen("in", "r", stdin);
     //freopen("out", "w", stdout);
 #endif
