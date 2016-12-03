@@ -14,7 +14,7 @@ map <c-l> :tabn <CR>
 map <c-h> :tabp <CR>
 
 set cin
-set st=4
+set sw=4
 set so=99
 set bs=2
 set et
