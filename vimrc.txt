@@ -2,7 +2,7 @@ map <F9> :wall! <CR> :!g++ -Wall -Wextra -std=c++14 -o sol.exe % -D_GLIBCXX_DEBU
 map <F7> :wall! <CR> :!g++ -Wall -Wextra -std=c++14 -o sol.exe % -O2 -DHOME <CR>
 map <F8> :wall! <CR> :!sol.exe <CR>
 
-inoremap { {<CR>}<ESC>O
+inoremap {<CR> {<CR>}<ESC>O
 map <c-a> ggVG
 
 set nu
