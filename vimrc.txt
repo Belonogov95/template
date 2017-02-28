@@ -1,8 +1,9 @@
-map <F9> :wall! <CR> :!g++ -Wall -Wextra -std=c++14 -o sol.exe % -D_GLIBCXX_DEBUG -DHOME <CR>
-map <F7> :wall! <CR> :!g++ -Wall -Wextra -std=c++14 -o sol.exe % -O2 -DHOME <CR>
-map <F8> :wall! <CR> :!sol.exe <CR>
+map <F9> :wall! <CR> :!g++ -Wall -Wextra -std=c++14 -o %:r % -D_GLIBCXX_DEBUG -fsanitize=address -DHOME -Wshadow -Wno-unused-result <CR>
+map <F7> :wall! <CR> :!g++ -Wall -Wextra -std=c++14 -o %:r % -O2 -DHOME -Wshadow -Wno-unused-result  <CR>
+map <F8> :wall! <CR> :!./%:r <CR>
 
 inoremap {<CR> {<CR>}<ESC>O
+inoremap <c-p> {
 map <c-a> ggVG
 
 set nu
@@ -19,5 +20,8 @@ set so=99
 set bs=2
 set et
 set sts=4
+
+
+
 
 
